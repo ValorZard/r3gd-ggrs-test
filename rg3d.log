@@ -1,0 +1,220 @@
+[INFO]: Shader FlatShader_VertexShader compiled!
+
+[INFO]: Shader FlatShader_FragmentShader compiled!
+
+[INFO]: Shader FlatShader linked!
+
+[INFO]: Shader SsaoShader_VertexShader compiled!
+
+[INFO]: Shader SsaoShader_FragmentShader compiled!
+
+[INFO]: Shader SsaoShader linked!
+
+[INFO]: Shader DeferredLightShader_VertexShader compiled!
+
+[INFO]: Shader DeferredLightShader_FragmentShader compiled!
+
+[INFO]: Shader DeferredLightShader linked!
+
+[INFO]: Shader DeferredLightShader_VertexShader compiled!
+
+[INFO]: Shader DeferredLightShader_FragmentShader compiled!
+
+[INFO]: Shader DeferredLightShader linked!
+
+[INFO]: Shader DeferredLightShader_VertexShader compiled!
+
+[INFO]: Shader DeferredLightShader_FragmentShader compiled!
+
+[INFO]: Shader DeferredLightShader linked!
+
+[INFO]: Shader AmbientLightShader_VertexShader compiled!
+
+[INFO]: Shader AmbientLightShader_FragmentShader compiled!
+
+[INFO]: Shader AmbientLightShader linked!
+
+[INFO]: Shader FlatShader_VertexShader compiled!
+
+[INFO]: Shader FlatShader_FragmentShader compiled!
+
+[INFO]: Shader FlatShader linked!
+
+[INFO]: Shader SkyboxShader_VertexShader compiled!
+
+[INFO]: Shader SkyboxShader_FragmentShader compiled!
+
+[INFO]: Shader SkyboxShader linked!
+
+[INFO]: Shader SpotShadowMapShader_VertexShader compiled!
+
+[INFO]: Shader SpotShadowMapShader_FragmentShader compiled!
+
+[INFO]: Shader SpotShadowMapShader linked!
+
+[INFO]: Shader PointShadowMapShader_VertexShader compiled!
+
+[INFO]: Shader PointShadowMapShader_FragmentShader compiled!
+
+[INFO]: Shader PointShadowMapShader linked!
+
+[INFO]: Shader SpotVolumetricLight_VertexShader compiled!
+
+[INFO]: Shader SpotVolumetricLight_FragmentShader compiled!
+
+[INFO]: Shader SpotVolumetricLight linked!
+
+[INFO]: Shader PointVolumetricLight_VertexShader compiled!
+
+[INFO]: Shader PointVolumetricLight_FragmentShader compiled!
+
+[INFO]: Shader PointVolumetricLight linked!
+
+[INFO]: Shader FlatShader_VertexShader compiled!
+
+[INFO]: Shader FlatShader_FragmentShader compiled!
+
+[INFO]: Shader FlatShader linked!
+
+[INFO]: Shader FlatShader_VertexShader compiled!
+
+[INFO]: Shader FlatShader_FragmentShader compiled!
+
+[INFO]: Shader FlatShader linked!
+
+[INFO]: Shader FlatShader_VertexShader compiled!
+
+[INFO]: Shader FlatShader_FragmentShader compiled!
+
+[INFO]: Shader FlatShader linked!
+
+[INFO]: Shader UIShader_VertexShader compiled!
+
+[INFO]: Shader UIShader_FragmentShader compiled!
+
+[INFO]: Shader UIShader linked!
+
+[INFO]: Shader ParticleSystemShader_VertexShader compiled!
+
+[INFO]: Shader ParticleSystemShader_FragmentShader compiled!
+
+[INFO]: Shader ParticleSystemShader linked!
+
+[INFO]: Shader DebugShader_VertexShader compiled!
+
+[INFO]: Shader DebugShader_FragmentShader compiled!
+
+[INFO]: Shader DebugShader linked!
+
+[INFO]: Shader ForwardShader_VertexShader compiled!
+
+[INFO]: Shader ForwardShader_FragmentShader compiled!
+
+[INFO]: Shader ForwardShader linked!
+
+[INFO]: Shader FXAAShader_VertexShader compiled!
+
+[INFO]: Shader FXAAShader_FragmentShader compiled!
+
+[INFO]: Shader FXAAShader linked!
+
+[INFO]: Shader SpriteShader2D_VertexShader compiled!
+
+[INFO]: Shader SpriteShader2D_FragmentShader compiled!
+
+[INFO]: Shader SpriteShader2D linked!
+
+[INFO]: Texture "src/data/skyboxes/DarkStormy/DarkStormyDown2048.png" is loaded in 8.5773848s!
+[INFO]: Texture "src/data/skyboxes/DarkStormy/DarkStormyFront2048.png" is loaded in 9.3838095s!
+[INFO]: Texture "src/data/skyboxes/DarkStormy/DarkStormyUp2048.png" is loaded in 9.3869236s!
+[INFO]: Texture "src/data/skyboxes/DarkStormy/DarkStormyLeft2048.png" is loaded in 9.429421s!
+[INFO]: Texture "src/data/skyboxes/DarkStormy/DarkStormyRight2048.png" is loaded in 9.5023764s!
+[INFO]: Texture "src/data/skyboxes/DarkStormy/DarkStormyBack2048.png" is loaded in 9.5288402s!
+[INFO]: Trying to load "src/data/mutant/mutant.FBX"
+[INFO]: Trying to load "src/data/mutant/walk.fbx"
+[INFO]: FBX "src/data/mutant/walk.fbx" loaded in 53 ms
+	- Parsing - 26 ms
+	- DOM Prepare - 5 ms
+	- Conversion - 21 ms
+[INFO]: Model "src/data/mutant/walk.fbx" is loaded!
+[INFO]: FBX "src/data/mutant/mutant.FBX" loaded in 1373 ms
+	- Parsing - 816 ms
+	- DOM Prepare - 16 ms
+	- Conversion - 540 ms
+[INFO]: Model "src/data/mutant/mutant.FBX" is loaded!
+[INFO]: Resource src/data/mutant/mutant.FBX was successfully embedded into physics world!
+[INFO]: Texture "src/data/concrete2.dds" is loaded in 4.9537ms!
+[INFO]: Shader FlatShader_VertexShader compiled!
+
+[INFO]: Shader FlatShader_FragmentShader compiled!
+
+[INFO]: Shader FlatShader linked!
+
+[INFO]: Shader SsaoShader_VertexShader compiled!
+
+[INFO]: Shader SsaoShader_FragmentShader compiled!
+
+[INFO]: Shader SsaoShader linked!
+
+[INFO]: Shader GBufferShader_VertexShader compiled!
+
+[INFO]: Shader GBufferShader_FragmentShader compiled!
+
+[INFO]: Shader GBufferShader linked!
+
+[INFO]: Shader GBufferInstancingShader_VertexShader compiled!
+
+[INFO]: Shader GBufferInstancingShader_FragmentShader compiled!
+
+[INFO]: Shader GBufferInstancingShader linked!
+
+[INFO]: Shader GBufferLightmapShader_VertexShader compiled!
+
+[INFO]: Shader GBufferLightmapShader_FragmentShader compiled!
+
+[INFO]: Shader GBufferLightmapShader linked!
+
+[INFO]: Shader GBufferLightmapInstancingShader_VertexShader compiled!
+
+[INFO]: Shader GBufferLightmapInstancingShader_FragmentShader compiled!
+
+[INFO]: Shader GBufferLightmapInstancingShader linked!
+
+[INFO]: Shader GBufferTerrainShader_VertexShader compiled!
+
+[INFO]: Shader GBufferTerrainShader_FragmentShader compiled!
+
+[INFO]: Shader GBufferTerrainShader linked!
+
+[INFO]: Shader GBufferTerrainInstancingShader_VertexShader compiled!
+
+[INFO]: Shader GBufferTerrainInstancingShader_FragmentShader compiled!
+
+[INFO]: Shader GBufferTerrainInstancingShader linked!
+
+[INFO]: Shader GBufferTerrainLightmapShader_VertexShader compiled!
+
+[INFO]: Shader GBufferTerrainLightmapShader_FragmentShader compiled!
+
+[INFO]: Shader GBufferTerrainLightmapShader linked!
+
+[INFO]: Shader GBufferTerrainLightmapInstancingShader_VertexShader compiled!
+
+[INFO]: Shader GBufferTerrainLightmapInstancingShader_FragmentShader compiled!
+
+[INFO]: Shader GBufferTerrainLightmapInstancingShader linked!
+
+[INFO]: Shader GBufferShader_VertexShader compiled!
+
+[INFO]: Shader GBufferShader_FragmentShader compiled!
+
+[INFO]: Shader GBufferShader linked!
+
+[INFO]: Shader DecalShader_VertexShader compiled!
+
+[INFO]: Shader DecalShader_FragmentShader compiled!
+
+[INFO]: Shader DecalShader linked!
+
+[INFO]: Texture "src/data/mutant\\Mutant_diffuse.png" is loaded in 9.2803766s!
+[INFO]: Texture "src/data/mutant\\Mutant_normal.png" is loaded in 9.39683s!

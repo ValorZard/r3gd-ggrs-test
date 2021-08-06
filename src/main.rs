@@ -78,11 +78,11 @@ impl GameSceneLoader {
         // can be used for all models instances, so memory footprint on GPU will be lower.
         let (model_resource, walk_animation_resource) = rg3d::core::futures::join!(
             resource_manager.request_model(
-                "examples/data/mutant/mutant.FBX",
+                "src/data/mutant/mutant.FBX",
                 MaterialSearchOptions::RecursiveUp
             ),
             resource_manager.request_model(
-                "examples/data/mutant/walk.fbx",
+                "src/data/mutant/walk.fbx",
                 MaterialSearchOptions::RecursiveUp
             )
         );
@@ -122,7 +122,7 @@ impl GameSceneLoader {
                 25.0, 0.25, 25.0,
             ))),
         )))
-        .with_diffuse_texture(resource_manager.request_texture("examples/data/concrete2.dds"))
+        .with_diffuse_texture(resource_manager.request_texture("src/data/concrete2.dds"))
         .build()])
         .build(&mut scene.graph);
 

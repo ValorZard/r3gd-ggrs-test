@@ -4,7 +4,7 @@
 // some parts can be unused in some examples.
 #![allow(dead_code)]
 
-use rapier3d::{
+use rg3d::physics::{
     dynamics::RigidBodyBuilder,
     geometry::ColliderBuilder,
     na::{Isometry3, UnitQuaternion, Vector3},
@@ -39,7 +39,7 @@ use rg3d::{
     },
     sound::effects::{BaseEffect, Effect},
 };
-use rg3d_ui::formatted_text::WrapMode;
+use rg3d::gui::formatted_text::WrapMode;
 use std::{
     path::Path,
     sync::{Arc, Mutex},
@@ -62,16 +62,16 @@ pub async fn create_camera(
     // Load skybox textures in parallel.
     let (front, back, left, right, top, bottom) = rg3d::core::futures::join!(
         resource_manager
-            .request_texture("examples/data/skyboxes/DarkStormy/DarkStormyFront2048.png"),
+            .request_texture("src/data/skyboxes/DarkStormy/DarkStormyFront2048.png"),
         resource_manager
-            .request_texture("examples/data/skyboxes/DarkStormy/DarkStormyBack2048.png"),
+            .request_texture("src/data/skyboxes/DarkStormy/DarkStormyBack2048.png"),
         resource_manager
-            .request_texture("examples/data/skyboxes/DarkStormy/DarkStormyLeft2048.png"),
+            .request_texture("src/data/skyboxes/DarkStormy/DarkStormyLeft2048.png"),
         resource_manager
-            .request_texture("examples/data/skyboxes/DarkStormy/DarkStormyRight2048.png"),
-        resource_manager.request_texture("examples/data/skyboxes/DarkStormy/DarkStormyUp2048.png"),
+            .request_texture("src/data/skyboxes/DarkStormy/DarkStormyRight2048.png"),
+        resource_manager.request_texture("src/data/skyboxes/DarkStormy/DarkStormyUp2048.png"),
         resource_manager
-            .request_texture("examples/data/skyboxes/DarkStormy/DarkStormyDown2048.png")
+            .request_texture("src/data/skyboxes/DarkStormy/DarkStormyDown2048.png")
     );
 
     // Unwrap everything.
@@ -295,7 +295,7 @@ impl LocomotionMachine {
         let mut machine = Machine::new();
 
         let (walk_animation, walk_state) = create_play_animation_state(
-            "examples/data/mutant/walk.fbx",
+            "src/data/mutant/walk.fbx",
             "Walk",
             &mut machine,
             scene,
@@ -304,7 +304,7 @@ impl LocomotionMachine {
         )
         .await;
         let (_, idle_state) = create_play_animation_state(
-            "examples/data/mutant/idle.fbx",
+            "src/data/mutant/idle.fbx",
             "Idle",
             &mut machine,
             scene,
@@ -315,7 +315,7 @@ impl LocomotionMachine {
 
         // Jump animation is a bit special - it must be non-looping.
         let (jump_animation, jump_state) = create_play_animation_state(
-            "examples/data/mutant/jump.fbx",
+            "src/data/mutant/jump.fbx",
             "Jump",
             &mut machine,
             scene,
@@ -463,7 +463,7 @@ impl Player {
         // for all models instances, so memory footprint on GPU will be lower.
         let model_resource = resource_manager
             .request_model(
-                "examples/data/mutant/mutant.FBX",
+                "src/data/mutant/mutant.FBX",
                 MaterialSearchOptions::RecursiveUp,
             )
             .await
@@ -758,7 +758,7 @@ pub fn create_scene_async(resource_manager: ResourceManager) -> Arc<Mutex<SceneL
             // Load simple map.
             resource_manager
                 .request_model(
-                    "examples/data/sponza/Sponza.fbx",
+                    "src/data/sponza/Sponza.fbx",
                     MaterialSearchOptions::RecursiveUp,
                 )
                 .await
