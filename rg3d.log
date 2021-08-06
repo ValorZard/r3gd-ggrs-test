@@ -124,38 +124,109 @@
 
 [INFO]: Shader SpriteShader2D linked!
 
-[INFO]: Texture "src/data/skyboxes/DarkStormy/DarkStormyDown2048.png" is loaded in 8.5773848s!
-[INFO]: Texture "src/data/skyboxes/DarkStormy/DarkStormyFront2048.png" is loaded in 9.3838095s!
-[INFO]: Texture "src/data/skyboxes/DarkStormy/DarkStormyUp2048.png" is loaded in 9.3869236s!
-[INFO]: Texture "src/data/skyboxes/DarkStormy/DarkStormyLeft2048.png" is loaded in 9.429421s!
-[INFO]: Texture "src/data/skyboxes/DarkStormy/DarkStormyRight2048.png" is loaded in 9.5023764s!
-[INFO]: Texture "src/data/skyboxes/DarkStormy/DarkStormyBack2048.png" is loaded in 9.5288402s!
+[INFO]: Trying to load "src/data/sponza/Sponza.fbx"
+[INFO]: Texture "src/data\\Dielectric_metallic.png" is loaded in 1.4008333s!
+[INFO]: Texture "src/data/sponza\\VasePlant_normal.png" is loaded in 3.0523245s!
+[INFO]: Texture "src/data/sponza\\VasePlant_diffuse.png" is loaded in 3.2006304s!
+[INFO]: Texture "src/data/sponza\\Sponza_Thorn_diffuse.png" is loaded in 3.5152155s!
+[INFO]: Texture "src/data/sponza\\Sponza_Thorn_normal.png" is loaded in 3.7170463s!
+[INFO]: Texture "src/data/sponza\\VaseRound_normal.png" is loaded in 3.8714296s!
+[INFO]: Shader SpotShadowMapShader_VertexShader compiled!
+
+[INFO]: Shader SpotShadowMapShader_FragmentShader compiled!
+
+[INFO]: Shader SpotShadowMapShader linked!
+
+[INFO]: Texture "src/data/sponza\\VaseRound_diffuse.png" is loaded in 4.146288s!
+[INFO]: Shader PointShadowMapShader_VertexShader compiled!
+
+[INFO]: Shader PointShadowMapShader_FragmentShader compiled!
+
+[INFO]: Shader PointShadowMapShader linked!
+
+[INFO]: Texture "src/data/sponza\\Background_Albedo.png" is loaded in 3.9083461s!
+[INFO]: Texture "src/data/sponza\\Background_Normal.png" is loaded in 3.3663039s!
+[INFO]: Texture "src/data/sponza\\Sponza_Arch_diffuse.png" is loaded in 3.3216246s!
+[INFO]: Texture "src/data/sponza\\Sponza_Bricks_a_Albedo.png" is loaded in 3.5252456s!
+[INFO]: Texture "src/data/sponza\\Sponza_Bricks_a_Normal.png" is loaded in 3.5369615s!
+[INFO]: Texture "src/data/sponza\\Sponza_Arch_normal.png" is loaded in 3.4333482s!
+[INFO]: Texture "src/data/sponza\\Sponza_Ceiling_diffuse.png" is loaded in 3.9438353s!
+[INFO]: Texture "src/data/sponza\\Sponza_Ceiling_normal.png" is loaded in 4.1884872s!
+[INFO]: Texture "src/data/sponza\\Sponza_Column_a_diffuse.png" is loaded in 3.5533153s!
+[INFO]: Texture "src/data/sponza\\Sponza_Column_a_normal.png" is loaded in 3.4026941s!
+[INFO]: Texture "src/data/sponza\\Sponza_Floor_diffuse.png" is loaded in 3.5928855s!
+[INFO]: Texture "src/data/sponza\\Sponza_Floor_normal.png" is loaded in 3.6820156s!
+[INFO]: Texture "src/data/sponza\\Sponza_Column_c_diffuse.png" is loaded in 4.2201597s!
+[INFO]: Texture "src/data\\Metallic_metallic.png" is loaded in 1.1185368s!
+[INFO]: Texture "src/data/sponza\\Sponza_Column_c_normal.png" is loaded in 4.050885s!
+[INFO]: Texture "src/data/sponza\\Sponza_Fabric_metallic.png" is loaded in 1.6552813s!
+[INFO]: Texture "src/data/sponza\\Sponza_Details_normal.png" is loaded in 3.5009306s!
+[INFO]: Texture "src/data/sponza\\Sponza_Column_b_diffuse.png" is loaded in 3.4517108s!
+[INFO]: Texture "src/data/sponza\\Sponza_Column_b_normal.png" is loaded in 3.4799851s!
+[INFO]: Texture "src/data/sponza\\Sponza_Details_diffuse.png" is loaded in 4.1362049s!
+[INFO]: Texture "src/data/sponza\\Sponza_FlagPole_normal.png" is loaded in 3.2923308s!
+[INFO]: Texture "src/data/sponza\\Sponza_FlagPole_diffuse.png" is loaded in 4.1245349s!
+[INFO]: Texture "src/data/sponza\\Sponza_Fabric_Green_normal.png" is loaded in 3.3254812s!
+[INFO]: Texture "src/data/sponza\\Sponza_Fabric_Blue_normal.png" is loaded in 3.2251479s!
+[INFO]: Texture "src/data/sponza\\Sponza_Fabric_Blue_diffuse.png" is loaded in 3.82387s!
+[INFO]: Texture "src/data/sponza\\Sponza_Curtain_metallic.png" is loaded in 1.2461936s!
+[INFO]: Texture "src/data/sponza\\Sponza_Fabric_Green_diffuse.png" is loaded in 4.2558051s!
+[INFO]: Texture "src/data/sponza\\Sponza_Fabric_Red_diffuse.png" is loaded in 4.1109135s!
+[INFO]: Texture "src/data/sponza\\Sponza_Fabric_Red_normal.png" is loaded in 3.2944322s!
+[INFO]: Texture "src/data/sponza\\Sponza_Curtain_Blue_normal.png" is loaded in 3.5869017s!
+[INFO]: Texture "src/data/sponza\\Sponza_Curtain_Blue_diffuse.png" is loaded in 3.7353745s!
+[INFO]: Texture "src/data/sponza\\Sponza_Curtain_Red_diffuse.png" is loaded in 3.6837053s!
+[INFO]: Texture "src/data/sponza\\Sponza_Curtain_Red_normal.png" is loaded in 3.6309726s!
+[INFO]: Texture "src/data/sponza\\Sponza_Curtain_Green_normal.png" is loaded in 3.69544s!
+[INFO]: Texture "src/data/sponza\\Sponza_Curtain_Green_diffuse.png" is loaded in 4.0125924s!
+[INFO]: Texture "src/data/sponza\\ChainTexture_Metallic.png" is loaded in 1.5699391s!
+[INFO]: Texture "src/data/sponza\\ChainTexture_Normal.png" is loaded in 3.1996265s!
+[INFO]: Texture "src/data/sponza\\ChainTexture_Albedo.png" is loaded in 3.2748033s!
+[INFO]: Texture "src/data/sponza\\VaseHanging_diffuse.png" is loaded in 3.1678743s!
+[INFO]: Texture "src/data/sponza\\VaseHanging_normal.png" is loaded in 2.8704817s!
+[INFO]: FBX "src/data/sponza/Sponza.fbx" loaded in 35682 ms
+	- Parsing - 7834 ms
+	- DOM Prepare - 342 ms
+	- Conversion - 27503 ms
+[INFO]: Model "src/data/sponza/Sponza.fbx" is loaded!
+[INFO]: Resource src/data/sponza/Sponza.fbx was successfully embedded into physics world!
+[INFO]: Texture "src/data/sponza\\Vase_diffuse.png" is loaded in 3.5847773s!
+[INFO]: Texture "src/data/sponza\\Vase_normal.png" is loaded in 3.8619314s!
+[INFO]: Texture "src/data/sponza\\Lion_Albedo.png" is loaded in 3.6637101s!
+[INFO]: Texture "src/data/sponza\\Lion_Normal.png" is loaded in 3.6920895s!
+[INFO]: Texture "src/data/sponza\\Sponza_Roof_normal.png" is loaded in 3.5343751s!
+[INFO]: Texture "src/data/sponza\\Sponza_Roof_diffuse.png" is loaded in 3.773264s!
+[INFO]: Texture "src/data/skyboxes/DarkStormy/DarkStormyBack2048.png" is loaded in 11.2328762s!
+[INFO]: Texture "src/data/skyboxes/DarkStormy/DarkStormyFront2048.png" is loaded in 11.2668632s!
+[INFO]: Texture "src/data/skyboxes/DarkStormy/DarkStormyDown2048.png" is loaded in 9.4305857s!
+[INFO]: Texture "src/data/skyboxes/DarkStormy/DarkStormyRight2048.png" is loaded in 10.423857s!
+[INFO]: Texture "src/data/skyboxes/DarkStormy/DarkStormyLeft2048.png" is loaded in 10.4903107s!
+[INFO]: Texture "src/data/skyboxes/DarkStormy/DarkStormyUp2048.png" is loaded in 10.2562454s!
 [INFO]: Trying to load "src/data/mutant/mutant.FBX"
-[INFO]: Trying to load "src/data/mutant/walk.fbx"
-[INFO]: FBX "src/data/mutant/walk.fbx" loaded in 53 ms
-	- Parsing - 26 ms
-	- DOM Prepare - 5 ms
-	- Conversion - 21 ms
-[INFO]: Model "src/data/mutant/walk.fbx" is loaded!
-[INFO]: FBX "src/data/mutant/mutant.FBX" loaded in 1373 ms
-	- Parsing - 816 ms
-	- DOM Prepare - 16 ms
-	- Conversion - 540 ms
+[INFO]: FBX "src/data/mutant/mutant.FBX" loaded in 1621 ms
+	- Parsing - 953 ms
+	- DOM Prepare - 17 ms
+	- Conversion - 650 ms
 [INFO]: Model "src/data/mutant/mutant.FBX" is loaded!
 [INFO]: Resource src/data/mutant/mutant.FBX was successfully embedded into physics world!
-[INFO]: Texture "src/data/concrete2.dds" is loaded in 4.9537ms!
-[INFO]: Shader FlatShader_VertexShader compiled!
-
-[INFO]: Shader FlatShader_FragmentShader compiled!
-
-[INFO]: Shader FlatShader linked!
-
-[INFO]: Shader SsaoShader_VertexShader compiled!
-
-[INFO]: Shader SsaoShader_FragmentShader compiled!
-
-[INFO]: Shader SsaoShader linked!
-
+[INFO]: Trying to load "src/data/mutant/walk.fbx"
+[INFO]: FBX "src/data/mutant/walk.fbx" loaded in 101 ms
+	- Parsing - 45 ms
+	- DOM Prepare - 13 ms
+	- Conversion - 41 ms
+[INFO]: Model "src/data/mutant/walk.fbx" is loaded!
+[INFO]: Trying to load "src/data/mutant/idle.fbx"
+[INFO]: FBX "src/data/mutant/idle.fbx" loaded in 123 ms
+	- Parsing - 56 ms
+	- DOM Prepare - 9 ms
+	- Conversion - 57 ms
+[INFO]: Model "src/data/mutant/idle.fbx" is loaded!
+[INFO]: Trying to load "src/data/mutant/jump.fbx"
+[INFO]: FBX "src/data/mutant/jump.fbx" loaded in 127 ms
+	- Parsing - 61 ms
+	- DOM Prepare - 13 ms
+	- Conversion - 51 ms
+[INFO]: Model "src/data/mutant/jump.fbx" is loaded!
 [INFO]: Shader GBufferShader_VertexShader compiled!
 
 [INFO]: Shader GBufferShader_FragmentShader compiled!
@@ -216,5 +287,34 @@
 
 [INFO]: Shader DecalShader linked!
 
-[INFO]: Texture "src/data/mutant\\Mutant_diffuse.png" is loaded in 9.2803766s!
-[INFO]: Texture "src/data/mutant\\Mutant_normal.png" is loaded in 9.39683s!
+[INFO]: Texture "src/data/mutant\\Mutant_diffuse.png" is loaded in 8.3840829s!
+[INFO]: Texture "src/data/mutant\\Mutant_normal.png" is loaded in 8.4831588s!
+[INFO]: Shader SpotShadowMapShader_VertexShader compiled!
+
+[INFO]: Shader SpotShadowMapShader_FragmentShader compiled!
+
+[INFO]: Shader SpotShadowMapShader linked!
+
+[INFO]: Shader PointShadowMapShader_VertexShader compiled!
+
+[INFO]: Shader PointShadowMapShader_FragmentShader compiled!
+
+[INFO]: Shader PointShadowMapShader linked!
+
+[INFO]: Texture resource "src/data\\Dielectric_metallic.png" destroyed because it not used anymore!
+[INFO]: Texture resource "src/data\\Metallic_metallic.png" destroyed because it not used anymore!
+[INFO]: Shader SpotShadowMapShader_VertexShader compiled!
+
+[INFO]: Shader SpotShadowMapShader_FragmentShader compiled!
+
+[INFO]: Shader SpotShadowMapShader linked!
+
+[INFO]: Shader PointShadowMapShader_VertexShader compiled!
+
+[INFO]: Shader PointShadowMapShader_FragmentShader compiled!
+
+[INFO]: Shader PointShadowMapShader linked!
+
+[INFO]: Texture resource "src/data/sponza\\Sponza_Fabric_metallic.png" destroyed because it not used anymore!
+[INFO]: Texture resource "src/data/sponza\\Sponza_Curtain_metallic.png" destroyed because it not used anymore!
+[INFO]: Texture resource "src/data/sponza\\ChainTexture_Metallic.png" destroyed because it not used anymore!
