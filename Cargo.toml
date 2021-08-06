@@ -1,0 +1,20 @@
+[package]
+name = "rg3d_test"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ggrs = "0.4.1"
+serde = { version = "1.0.127", features = ["derive"] }
+bincode = "1.3"
+rapier3d = { version = "0.10", features = [ "serde-serialize", "enhanced-determinism" ] }
+
+[dependencies.rg3d]
+git = "https://github.com/rg3dengine/rg3d"
+rev = "b32b5874e7fa6086e0ec92a2daa5d260cc8021a4"
+
+#[dependencies.rg3d_ui]
+#git = "https://github.com/rg3dengine/rg3d/tree/master/rg3d-ui"
+#rev = "b32b5874e7fa6086e0ec92a2daa5d260cc8021a4"
